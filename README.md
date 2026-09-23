@@ -33,6 +33,8 @@ This project uses SQL to answer six concrete business questions from raw order d
 ## Key Findings
 * **Highest-revenue region / lowest-margin region:** The West region makes the most sales. The Central region has the lowest margin because the profit is very small even though it has more sales than the South.   
 * **Least profitable sub-category:** : Tables are losing the most money. Bookcases and Supplies are also in the negative red color.
+* **Effect of discounts above 40% on profit:** The average profit per order drops deeply into the negative, losing around 100 per order.
+* **Seasonal trend observed:** Sales have huge spikes at the end of every year, but the profit line stays mostly flat and does not jump up with the sales.
 * **Top customer by profit contribution:** Raymond Buch is the number one customer, giving the company $6,976.10 in total profit.
 
 ## Business Recommendations
@@ -47,7 +49,7 @@ This project uses SQL to answer six concrete business questions from raw order d
 5. Plan for busy months: The monthly trend chart shows sales go very high in the last few months. We need to keep more stock ready and put more people in the warehouse during this time so delivery is not late and we don't run out of items.
 
 ## Dashboard Preview
-
+![Dashboard Preview](images/superstore.png)
 
 ## Run
 
