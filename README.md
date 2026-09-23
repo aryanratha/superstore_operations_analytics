@@ -8,7 +8,7 @@ This project uses SQL to answer six concrete business questions from raw order d
 ## Dataset
 **Sample Superstore Dataset**
 — ~9,800 retail orders with sales, profit, discount, shipping, and customer detail.
-**link:** www.kaggle.com/datasets/vivek468/superstore-dataset-final.csv
+**link:** www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
 ## Tools & Skills Used
 * **SQL (via SQLite):** Joins, GROUP BY, CASE statements, date functions, aggregate queries answering real business questions.
