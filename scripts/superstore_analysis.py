@@ -189,18 +189,17 @@ shipping.to_csv("shipping_analysis.csv", index=False)
 conn.close()
 
 # ---------------------------------------------------------
-# 10. FINDINGS TEMPLATE — replace with YOUR actual numbers
+# 10. FINDINGS:
 # ---------------------------------------------------------
 print("""
-KEY FINDINGS TEMPLATE (fill in with your real output above):
-1. [Region] generates the highest sales but [Region] has the lowest
-   profit margin -> investigate pricing/logistics costs there.
-2. [Sub-Category] sells well but is actually losing money overall
-   -> recommend renegotiating supplier cost or repricing.
-3. Orders with discounts above 40% have negative average profit
-   -> recommend capping discretionary discounts at 20%.
-4. Sales show a clear seasonal spike in [month(s)] -> recommend
-   inventory/staffing planning ahead of that period.
-5. Top 10 customers contribute a disproportionate share of profit
-   -> recommend a loyalty/priority program for them.
+KEY FINDINGS TEMPLATE :
+1. West generates the highest sales but Central region has the lowest
+   profit margin.
+2. Tables are losing the most money. Bookcases and Supplies are also in the negative red color.
+3. Effect of discounts above 40% on profit: The average profit per order drops deeply into the negative,
+    losing around 100 per order.
+4. Seasonal trend observed: Sales have huge spikes at the end of every year, 
+    but the profit line stays mostly flat and does not jump up with the sales.
+5. Top customer by profit contribution: Raymond Buch is the number one customer, 
+    giving the company $6,976.10 in total profit.
 """)
